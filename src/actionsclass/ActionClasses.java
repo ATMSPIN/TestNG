@@ -24,7 +24,7 @@ public class ActionClasses {
   public void rightclick() throws Exception {
 	  
 	  driver.get("http://seleniumlearn.com/");
-	  Thread.sleep(2000);
+	  Thread.sleep(5000);
 	 Actions act =new Actions(driver);
 	 act.contextClick(driver.findElement(By.xpath("//*[@id=\"menu-387-1\"]/a"))).build().perform();
   }
